@@ -15,6 +15,6 @@
 <img src="images/IMG_20260815_215821.jpg" alt="Image 2" width="45%" height="auto">
 </p>
 
-# 📎Demo link
+# 📎 Live Demo
 
-https://loginpage-2026.netlify.app/
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Website-blue?style=for-the-badge)](https://loginpage-2026.netlify.app/)
