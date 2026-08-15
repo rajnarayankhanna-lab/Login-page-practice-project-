@@ -9,5 +9,5 @@
 
 #ScreenShot 
 
-<img src="Images/IMG_20260815_215800.jpg" alt="Image 1" width="45%" height="auto">
-<img src="Images/IMG_20260815_215821.jpg" alt="Image 2" width="45%" height="auto">
+<img src="images/IMG_20260815_215800.jpg" alt="Image 1" width="45%" height="auto">
+<img src="images/IMG_20260815_215821.jpg" alt="Image 2" width="45%" height="auto">
