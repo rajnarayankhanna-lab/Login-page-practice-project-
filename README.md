@@ -18,3 +18,19 @@
 # 📎 Live Demo
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Website-blue?style=for-the-badge)](https://loginpage-2026.netlify.app/)
+
+# Project Structure 
+
+```
+Login-page-practice-Project/
+│
+├── index.html
+├── README.md
+│
+└── images/
+    ├── 960px-Facebook_f_logo_(2021).svg.png
+    ├── IMG_20260815_215800.jpg
+    ├── IMG_20260815_215821.jpg
+    ├── google-logo-transparent-background.png
+    └── icons8-github-30.png
+```
