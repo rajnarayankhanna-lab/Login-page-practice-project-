@@ -1,6 +1,6 @@
 # Login-page-practice-project-
 
-# Loginpagepractice project
+# Login page practice project
 
 <p>Login page project is my practice project specially for JavaScript.</p>
 
