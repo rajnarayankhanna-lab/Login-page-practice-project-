@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loginpage|index</title>
+   <style>
+     body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color:grey;
+  -webkit-user-select: none;
+  user-select: none;
+  -moz-user-select: none;
+}
+
+.container{
+  width:350px;
+  min-height:300px;
+  padding: 20px;
+  border-radius:15px;
+  box-shadow:0 0 10px grey;
+  background: white;
+}
+
+button,
+input{
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius:20px;
+}
+
+button:hover{
+  background: #B8FD91;
+}
+
+
+input{
+  padding:10px;
+  width:93%;
+  height:25px;
+}
+
+button{
+  width: 100%;
+  padding: 10px;
+}
+
+.form{
+  display:none;
+}
+.message{
+  display:none;
+}
+.Facebook{
+  display:none;
+}
+.github{
+  display: none;
+}
+
+img{
+  width:25px;
+  height:25px;
+}
+
+h1{
+    font-family: "Merriweather", serif;
+    text-align: center;
+}
+
+#message{
+  color:#1DAD62;
+  font-size:20px;
+  font-weight:bold;
+  text-align:center;
+}
+   </style>
+   
+</head>
+
+<body>
+  <div class="container">
+  <h1>Login</h1>
+  
+  <div class="social">
+<button onclick="googlebnt()">
+  <img src="google-logo-transparent-background-free-png.png" alt="google-logo-transparent-background-free-png.png"></button>
+<button onclick="facebookbnt()"><img src="960px-Facebook_f_logo_(2021).svg.png" alt="960px-Facebook_f_logo_(2021).svg.png"></button>
+<button onclick="githubbnt()"><img src="icons8-github-30.png" alt="" /></button>
+</div>
+
+<!---For Google User--->
+
+<div class="form">
+<input type="email" placeholder="Email" name="Email" id="Email">
+
+<input type="password" placeholder="Password" name="password" id="password" maxlength="8">
+</div>
+
+<!---For Facebook Users--->
+
+<div class="Facebook">
+<input type="text" name="phone-user" id="phone-user" placeholder="Phone no./Username">
+
+<input type="password" name="password_fb" id="password_fb" placeholder="Password" maxlength="8">
+</div>
+
+<!--For GitHub User--->
+
+<div class="github">
+<input type="text" name="email_gitH" id="email_gitH" placeholder="Email/Username">
+
+<input type="password" name="password-gitH" id="password-gitH" placeholder="Password" maxlength="8">
+</div>
+
+<div class="message">
+<button class="login" onclick="login()">Login</button>
+<p id="message"></p>
+</div>
+
+</div>
+
+<!--JavaScript-->
+
+<script>
+  function googlebnt() { 
+  document.querySelector(".form").style.display = "block";
+  
+document.querySelector(".social")
+  .style.display = "none";
+
+document.querySelector(".message").style.display = "block"
+}
+
+//Facebook Button control
+
+function facebookbnt() {
+  document.querySelector(".Facebook").style.display = "block"
+  
+  document.querySelector(".social")
+  .style.display = "none";
+  
+  document.querySelector(".message").style.display = "block"
+
+}
+
+//GitHub button control
+
+function githubbnt() {
+  document.querySelector(".github").style.display = "block"
+  
+  document.querySelector(".social")
+  .style.display = "none";
+  
+  document.querySelector(".message").style.display = "block"
+}
+
+function login() {
+
+  let email =
+  document.getElementById("Email").value;
+
+  let password =
+  document.getElementById("password").value;
+
+  if (
+    !email.includes("@") ||
+    !email.includes("gmail")
+  ) {
+
+    document.getElementById("message").innerHTML =
+    "❌ Invalid Email";
+
+  }
+
+  else if (password.length < 8) {
+
+    document.getElementById("message").innerHTML =
+    "❌ Invalid Password";
+
+  }
+
+  else {
+
+    document.getElementById("message").innerHTML =
+    "✔️ Login Successfully";
+
+    setTimeout(function () {
+      window.location = "chat.html";
+    }, 2000);
+
+  }
+
+}
+
+</script>
+</body>
+</html>
