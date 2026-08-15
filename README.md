@@ -1,6 +1,7 @@
 # 📄Login page practice project
 
 <p>Login page project is my practice project specially for JavaScript.</p>
+<p>In this website user will choose from which application user want to login then enter details and Login Successfully pop up will seen.
 
 # Technologies used
 ![HTML5](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5)
