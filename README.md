@@ -34,6 +34,14 @@ Login-page-practice-Project/
     ├── google-logo-transparent-background.png
     └── icons8-github-30.png
 ```
+# What I learned
+
+```
+ I learned much from this project-
+1 Use of display none.
+2 Use of function in JavaScript.
+3 To make a card 
+```
 
 # Author
 Kartik Kushwaha
