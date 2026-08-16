@@ -34,3 +34,7 @@ Login-page-practice-Project/
     ├── google-logo-transparent-background.png
     └── icons8-github-30.png
 ```
+
+# Author
+Kartik Kushwaha
+⭐ If you like this project, consider giving it a star.
