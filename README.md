@@ -37,11 +37,11 @@ Login-page-practice-Project/
 # What I learned
 
 ```
- I learned much from this project-  
+📚 What I Learned 
 
-1 Use of display none.
-2 Use of function in JavaScript.
-3 To make a card 
+1 How to use display: none;
+2 How to use functions in JavaScript.
+3 How to create and style a card using HTML and CSS.
 ```
 
 # Author
